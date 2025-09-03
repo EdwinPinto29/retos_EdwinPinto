@@ -31,7 +31,7 @@ Este proyecto contiene dos ejercicios implementados con **ExpressJS**:
 ## Ejercicio 2: Simulación de Movimiento
 
 **Endpoint**
-   POST /ej2/simular/:tiempo   -(Pon el tiempo en el parametro)
+   POST /ej1/simular/:tiempo   -(Pon el tiempo en el parametro)
 
 ### Ejemplo de uso:
    {
@@ -46,11 +46,11 @@ Este proyecto contiene dos ejercicios implementados con **ExpressJS**:
 
 | Método | Endpoint            | Descripción                          |
 |--------|---------------------|--------------------------------------|
-| POST   | `/ej3/sumar`        | Suma dos números                     |
-| POST   | `/ej3/restar`       | Resta dos números                    |
-| POST   | `/ej3/multiplicar`  | Multiplica dos números               |
-| POST   | `/ej3/dividir`      | Divide dos números (valida división por cero) |
-| GET    | `/ej3/historial`    | Devuelve el historial almacenado en la cookie |
+| POST   | `/ej2/sumar`        | Suma dos números                     |
+| POST   | `/ej2/restar`       | Resta dos números                    |
+| POST   | `/ej2/multiplicar`  | Multiplica dos números               |
+| POST   | `/ej2/dividir`      | Divide dos números (valida división por cero) |
+| GET    | `/ej2/historial`    | Devuelve el historial almacenado en la cookie |
 
 ### Ejemplo de uso:
 { "a": 4, "b": 7 }
@@ -58,4 +58,4 @@ Este proyecto contiene dos ejercicios implementados con **ExpressJS**:
 ## Historial
 
 **Endpoints**
-   GET /ej3/historial
+   GET /ej2/historial
