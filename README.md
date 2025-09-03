@@ -43,10 +43,10 @@ Este proyecto contiene dos ejercicios implementados con **ExpressJS**:
 ## Ejercicio 3: Calculadora con Historial
 
 ## Endpoints
-   POST /ej3/sumar
-   POST /ej3/restar
-   POST /ej3/multiplicar
-   POST /ej3/dividir
+   POST /ej3/sumar.
+   POST /ej3/restar.
+   POST /ej3/multiplicar.
+   POST /ej3/dividir.
 
 ### Ejemplo de uso:
 { "a": 4, "b": 7 }
